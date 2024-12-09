@@ -1,8 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import { HeartIcon, ShoppingCartIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
-
+import { HeartIcon } from '@heroicons/react/24/outline';
+import {ShoppingCartIcon} from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon} from '@heroicons/react/24/outline';
 function FeaturedProducts() {
   const products = [
     { id: 1, img: "/p1.png" },

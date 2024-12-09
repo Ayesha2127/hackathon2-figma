@@ -1,7 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF} from 'react-icons/fa';
+import{ FaTwitter}from 'react-icons/fa';
+import{ FaInstagram}from 'react-icons/fa';
 
 function Footer() {
   const [email, setEmail] = useState("");

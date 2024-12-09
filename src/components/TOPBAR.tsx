@@ -1,6 +1,10 @@
 'use client';
 
-import { FaEnvelope, FaPhoneAlt, FaUser, FaHeart, FaShoppingCart } from 'react-icons/fa'; // Import necessary icons
+import { FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import {  FaUser} from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
+import {FaShoppingCart } from 'react-icons/fa'; 
 import { useState } from 'react'; // To manage dropdown state
 
 const TopBar = () => {
